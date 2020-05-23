@@ -16,6 +16,10 @@ body {
     height: 180px;
     border: none;
     box-sizing:border-box;
+    text-align: right;
+    padding-right: 30px;
+    font-size: 35px;
+    font-weight: 500;
 }
 
 .pad_wrapper {
@@ -35,6 +39,10 @@ body {
     border: 1px solid rgb(18, 35, 45);
 }
 
+.box:active {
+    background-color: rgb(162, 250, 100);
+    color:  rgb(21, 42, 51);
+}
 
 
 .box_2 {
@@ -57,4 +65,16 @@ body {
 
 .top {
     border-top: none;
+}
+
+.box {
+    /* background: #101B37 */
+}
+
+.clear {
+    background: #E41376
+}
+
+.result {
+    background: #01C8EE
 }
